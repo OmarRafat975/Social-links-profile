@@ -72,13 +72,13 @@ body {
   font-size: 12px;
   font-weight: 400;
 }
-.buttons {
+.links {
   display: flex;
   align-items: center;
   justify-content: space-evenly;
   text-align: center;
 }
-.buttons li {
+.links li {
   list-style: none;
   background-color: hsl(0, 0%, 20%);
   margin: 10px 0;
@@ -87,11 +87,11 @@ body {
   height: 2.5rem;
   border-radius: 10px;
 }
-.buttons li :hover {
+.links li :hover {
   color: hsl(75, 94%, 57%);
 }
 
-.buttons li a {
+.links li a {
   position: relative;
   text-decoration: none;
   color: hsl(0, 0%, 100%);
