@@ -1,0 +1,100 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Inter", sans-serif;
+}
+
+body {
+  background-color: hsl(0, 0%, 8%);
+}
+@media (main-width: 768px) {
+  .container {
+    width: 46.875rem;
+  }
+}
+/* Mediam */
+
+@media (min-width: 992px) {
+  .container {
+    width: 60.625rem;
+  }
+}
+/* Large */
+
+@media (min-width: 1200px) {
+  .container {
+    width: 73.125rem;
+  }
+}
+
+.container {
+  background-color: hsl(0, 0%, 12%);
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  text-align: center;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 17rem;
+  height: 31.5rem;
+  border-radius: 12px;
+}
+.container .userinfo {
+  margin-top: 0.5rem;
+  text-align: center;
+}
+
+.container .userinfo img {
+  width: 4rem;
+  height: 4rem;
+  border-radius: 50%;
+}
+.container .userinfo h1 {
+  color: hsl(0, 0%, 100%);
+  font-size: 1.5rem;
+  margin-top: 1rem;
+  font-weight: 700;
+}
+.container .userinfo .location {
+  color: hsl(75, 94%, 57%);
+  font-size: 0.86rem;
+  font-weight: 600;
+  margin-top: 0.5rem;
+  margin-bottom: 1.4rem;
+}
+
+.container .userinfo .bio {
+  color: hsl(0, 0%, 100%);
+  font-size: 12px;
+  font-weight: 400;
+}
+.buttons {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  text-align: center;
+}
+.buttons li {
+  list-style: none;
+  background-color: hsl(0, 0%, 20%);
+  margin: 10px 0;
+  /*padding: 0 20px; */
+  width: 14rem;
+  height: 2.5rem;
+  border-radius: 10px;
+}
+.buttons li :hover {
+  color: hsl(75, 94%, 57%);
+}
+
+.buttons li a {
+  position: relative;
+  text-decoration: none;
+  color: hsl(0, 0%, 100%);
+  text-align: center;
+  top: 25%;
+}
